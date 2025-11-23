@@ -4,7 +4,7 @@ pipeline {
     environment {
         IMAGE = "msmengr/demo-app:latest"
         SSH_USER = "azureuser"
-        SSH_HOST = "<AZURE_VM_PUBLIC_IP>"
+        SSH_HOST = "20.81.45.129"
     }
 
     stages {
