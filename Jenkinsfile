@@ -11,7 +11,7 @@ pipeline {
 
         stage("Checkout") {
             steps {
-                git 'https://github.com/Mudassir-dev0ps/dockeronazure'
+                sh 'git clone https://github.com/Mudassir-dev0ps/dockeronazure'
             }
         }
 
