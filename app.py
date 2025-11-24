@@ -3,6 +3,6 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "Hello from Jenkins → Docker Hub → Azure VM 🎉"
+    return "Hi testing from Jenkins → Docker Hub → Azure VM 🎉"
 
 app.run(host="0.0.0.0", port=5000)
